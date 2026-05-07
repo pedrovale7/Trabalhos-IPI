@@ -1,5 +1,5 @@
 def intercalar_linha(matriz):
-    matriz_reduzida = matriz[::2, : ]
+    matriz_reduzida = matriz[::2, :]
     return matriz_reduzida
 
 def intercalar_coluna(matriz):

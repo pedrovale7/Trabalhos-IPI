@@ -1,7 +1,4 @@
 import numpy as np
-from abrir_img import open_img
-path = "T1/moire.tif"
-matriz = open_img(path)
 
 def duplicar_linha(matriz):
     h, w = matriz.shape
